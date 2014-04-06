@@ -33,13 +33,13 @@ public class CassandraConnection {
 
             // TODO Convert this dynamic configuration
             String serverIP1 = "127.0.0.1";
-            //String serverIP2 = "gbl04116.systems.uk.hsbc";
-            //String serverIP3 = "gbl04117.systems.uk.hsbc";
-            //String serverIP4 = "gbl04118.systems.uk.hsbc";
+            //String serverIP2 = "gbl04116.systems.uk.xxx";
+            //String serverIP3 = "gbl04117.systems.uk.xxx";
+            //String serverIP4 = "gbl04118.systems.uk.xxx";
 
             LOGGER.info(String.format("Connecting to cluster keyspace=%s....", keySpace));
 
-            //String[] hosts = {"gbl04115.systems.uk.hsbc", "gbl04116.systems.uk.hsbc", "gbl04117.systems.uk.hsbc", "gbl04118.systems.uk.hsbc"};
+            //String[] hosts = {"gbl04115.systems.uk.xxx", "gbl04116.systems.uk.xxx", "gbl04117.systems.uk.xxx", "gbl04118.systems.uk.xxx"};
             String[] hosts = {"127.0.0.1"};
 
             cluster = Cluster.builder()
