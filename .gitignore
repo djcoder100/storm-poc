@@ -1,0 +1,11 @@
+*.class
+target/
+.Rhistory
+.project
+.classpath
+
+.RData
+.Rhistory
+
+
+*.pyc
